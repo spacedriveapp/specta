@@ -19,10 +19,10 @@ rustdoc-args = ["--cfg", "docsrs"]
 workspace = true
 
 [dependencies]
-specta = { path = "../specta" }
-specta-typescript = { path = "../specta-typescript" }
+specta = { version = "=2.0.0-rc.20" }
+specta-typescript = { version = "0.0.7"}
 # TODO: Don't depend on serde
-specta-serde = { path = "../specta-serde" }
+specta-serde = { version = "0.0.7" }
 thiserror = "1.0.61"
 
 [dev-dependencies]
